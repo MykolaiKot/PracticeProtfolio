@@ -1,7 +1,161 @@
+body {
+    font-family: "Open Sans", sans-serif;
+    padding: 0px 16px;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #1c1c1d;
+}
+
+/* navigation styling */
+
+/* nav bar */
+nav {
+    display: flex;
+    align-items: center;
+    padding: 16px 0px;
+}
+
+/* logo styling */
+#logo {
+    margin: 0;
+    color: #ded5d5;
+    text-decoration:underline;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin: 0px;
+    font-weight: bold;
+    color: #8e8a8a;
+}
+
+/* nav list  styling */
+
+.navigation-items {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    align-items: center;
+    margin: 0;
+    margin-left: auto;
+}
+
+ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+/* nav items styling */
+.navigation-item {
+    margin: 8px;
+    margin-left: 45px;
+}
+
+a {
+    color: #8e8a8a;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 1.5rem;
+}
+
+/* Front Section of the page   */
+
+section {
+    margin-top: 7em;
+    padding: 16px 0px;
+}
+
+section {
+    display: block;
+}
+
+ .about_me {
+    display:flex;
+    align-items: center;
+} 
+
+h1 {
+    font-size: 4em;
+    color: #ded5d5;
+    margin: 0;
+}
+
+.portrait {
+    margin-left: auto;
+    width: 250px;
+    flex-shrink: 0;
+    border: 45px;
+    border-style: solid;
+    border-color: #181818;
+    border-radius: 50px;
+}
+
+
+
+  
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+    
+}
+
+/* Button */
+
+
+#button_projects {
+    
+  background-color: #1c1c1d;
+  border: 2px solid #8e8a8a;
+  border-radius: 30px;
+  box-shadow: #8e8a8a 4px 4px 0 0;
+  color: #ded5d5;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+#button_projects:hover {
+  background-color: #ded5d5;
+  color: #8e8a8a;
+}
+
+#button_projects:active {
+  box-shadow: #422800 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+    #button_projects {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+/* footer */
+
 #skills_container {
     display: flex;
     width: 100%;
     justify-content: space-between;
     flex-wrap: wrap;
 }
+
+
 
