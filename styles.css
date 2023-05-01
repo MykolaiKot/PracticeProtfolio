@@ -132,11 +132,11 @@ img {
     
 }
 
-/* Button */
+/* My Projects  Button */
 
 
 #button_projects {
-    
+  margin-top: 15px;  
   background-color: #1c1c1d;
   border: 2px solid #8e8a8a;
   border-radius: 30px;
@@ -172,6 +172,56 @@ img {
   }
 }
 
+/* More about me   Button */
+
+#more {
+    margin-left: 2em;
+    margin-top: 15px;  
+    background-color: #1c1c1d;
+    border: 2px solid #8e8a8a;
+    border-radius: 30px;
+    box-shadow: #8e8a8a 4px 4px 0 0;
+    color: #ded5d5;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    font-size: 18px;
+    padding: 0 18px;
+    line-height: 50px;
+    text-align: center;
+    text-decoration: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation; 
+}
+
+#more:hover {
+    background-color: #ded5d5;
+    color: #8e8a8a;
+  }
+  
+  #more:active {
+    box-shadow: #422800 2px 2px 0 0;
+    transform: translate(2px, 2px);
+  }
+
+
+
+@media (min-width: 768px) {
+    #more {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+#moreInfo {
+    margin-top: 2rem;
+    font-size: 1.5em;
+    
+    font-weight: bold;
+    color: #8e8a8a;
+}
+
 /* footer */
 
 .skills {
@@ -194,4 +244,61 @@ img {
 }
 
 
+
+.fab {
+    width: 2.5rem;
+}
+
+.fa-html5 {
+    content: url('https://api.iconify.design/fa-brands/html5.svg?color=%238e8a8a');
+     
+}
+
+.fa-css-alt {
+    content: url('https://api.iconify.design/fa-brands/css3-alt.svg?color=%238e8a8a');
+}
+
+.fa-js {
+    content: url('https://api.iconify.design/fa-brands/js-square.svg?color=%238e8a8a');
+}
+
+.fa-git {
+    content: url('https://api.iconify.design/fa-brands/git.svg?color=%238e8a8a');
+}
+
+.fa-github {
+    content: url('https://api.iconify.design/fa-brands/github.svg?color=%238e8a8a');
+}
+
+.fa-node-js {
+    content: url('https://api.iconify.design/fa-brands/node.svg?color=%238e8a8a');
+}
+
+@media only screen and  (max-device-width: 812px)  {
+
+    /* NAV SECTION */
+
+    nav {
+        
+        flex-direction: row;
+    }
+
+    .navigation-items {
+        
+        flex-direction: column;
+    }
+    
+
+    /* MAIN SECTION */
+    .about_me {
+        
+         flex-direction: column;
+    }
+
+    
+
+    .portrait {
+        margin-top: 10%;
+    }
+}
 
